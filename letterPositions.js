@@ -22,7 +22,7 @@ const countLetters = function(text) {
     letters.push(text.charAt(i));
     }
   }
-let result = countOnly(letters);
+let result = countLetters(letters);
 return result;
 };
 console.log(countLetters(sentance));
