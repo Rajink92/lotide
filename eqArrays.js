@@ -16,6 +16,15 @@ function eqArrays(a, b) {
   }
   return isThisEqual
 }
+
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`)
+  } else { 
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} === ${expected}`)
+  }
+}
+
 const arrayA = [1, 2, 3]
 const arrayB = [1, 2, 3]
 // this will be the function call
