@@ -1,9 +1,5 @@
 // This is the function definition
 function eqArrays(a, b) {
-  console.log("If we get here that means this function was called")
-  console.log("this array a", a)
-  console.log("this array b", b)
-  console.log("this is the first condition", a === b)
   let isThisEqual = null;
   for (let index = 0; index < a.length; index++)  {
     if (a[index] === b[index])  {

@@ -9,7 +9,7 @@ eqObjects(ab, ba); // => true
 const abc = { a: "1", b: "2", c: "3" };
 eqObjects(ab, abc);
 
-onst cd = { c: "1", d: ["2", 3] };
+const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
 eqObjects(cd, dc); // => true
 
