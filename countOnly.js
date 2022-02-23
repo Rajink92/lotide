@@ -10,8 +10,8 @@ const countOnly = function(allItems, itemsToCount) {
         results[item] = 1;
       }
     }
-  return results;
 }
+return results;
 }
 
 
@@ -27,4 +27,7 @@ const firstNames = [
   "Joe"
 ];
 
+
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
+
+Module.exports = countOnly

@@ -1,16 +1,6 @@
-function eqArrays(a, b) {
-  let isThisEqual = null;
-  for (let index = 0; index < a.length; index++)  {
-    if (a[index] === b[index])  {
-      isThisEqual = true
-    }
-    else {
-      isThisEqual = false
-      return isThisEqual
-    }
-  }
-  return isThisEqual
-}
+
+const eqArrays = require('./eqArrays')
+
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length)  {
     return false; //edgecase if lengths are not equal, and converts to array
@@ -33,3 +23,5 @@ const eqObjects = function(object1, object2) {
 } 
 return true;
 }; 
+
+Module.exports = eqObjects

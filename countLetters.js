@@ -1,16 +1,6 @@
-const countOnly = function(allItems) {
-  const results = {};
+const countOnly = require('./countOnly')
 
-  for (const item of allItems) {
-    console.log(item);
-    if (results[item]) {
-      results[item] += 1;
-    } else {
-      results[item] = 1;
-    }
-}
-return results
-}
+Module.exports = countLetters
 
 const sentance = "Lighthouse in the house"
 
@@ -27,3 +17,4 @@ return result;
 };
 console.log(countLetters(sentance));
 
+Module.exports = countLetters

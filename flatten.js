@@ -1,3 +1,5 @@
+const { Module } = require("module");
+
 const flatten = (array) => {
   let result = [];
   if (!(Array.isArray(array))) {
@@ -25,7 +27,7 @@ const flatten = (array) => {
   // console.log("THIS IS THE RESULT", result)
   return result
 }
-
+Module.exports = flatten
 // function eqArrays(a, b) {
 //   let isThisEqual = null;
 //   for (let index = 0; index < a.length; index++)  {

@@ -6,3 +6,5 @@ const findKeyByValue = function(searchObject, keySearch) {
     }
   }
 };
+
+Module.exports = findKeyByValue
