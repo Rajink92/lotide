@@ -3,7 +3,11 @@ const tail = require('../head');
 
 describe("#tail", () => {
   const words = ["Yo Yo", "Lighthouse", "Labs"];
-  it("returns 3 for words.length", () => {
-    assert.strictEqual((words.length), 3);
+  it("returns Yo Yo for words", () => {
+    assert.strictEqual(tail(words), "Yo Yo");
+  });
+  const words1 = ["Dog", "Cat", "Mouse"];
+  it("returns Dog for tail(words1)", () => {
+    assert.strictEqual(tail(words1), "Dog");
   });
 });
