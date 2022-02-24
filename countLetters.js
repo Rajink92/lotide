@@ -8,4 +8,6 @@ const countLetters = function(text) {
   return letters;
 };
 
+const result1 = countLetters('Rajin')
+console.log(result1)
 module.exports = countLetters
