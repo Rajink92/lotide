@@ -20,4 +20,4 @@ const assertEqual = require('./assertEqual')
 
 assertEqual(result, "noma")
 
-Module.exports = findKey
+module.exports = findKey

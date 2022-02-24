@@ -1,6 +1,5 @@
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
-
   for (const item of allItems) {
     console.log(item);
     if (itemsToCount[item]) { 
@@ -30,4 +29,4 @@ const firstNames = [
 
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
 
-Module.exports = countOnly
+module.exports = countOnly

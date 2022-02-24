@@ -7,4 +7,4 @@ const findKeyByValue = function(searchObject, keySearch) {
   }
 };
 
-Module.exports = findKeyByValue
+module.exports = findKeyByValue

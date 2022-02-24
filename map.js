@@ -11,4 +11,4 @@ const map = function(array, callback) {
 }
 const words = ["ground", "control", "to", "major", "tom"];
 
-Module.exports = map
+module.exports = map

@@ -1,4 +1,3 @@
-
 const eqArrays = require('./eqArrays')
 
 const eqObjects = function(object1, object2) {
@@ -24,4 +23,4 @@ const eqObjects = function(object1, object2) {
 return true;
 }; 
 
-Module.exports = eqObjects
+module.exports = eqObjects
