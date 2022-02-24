@@ -9,5 +9,5 @@ const countLetters = function(text) {
 };
 
 const result1 = countLetters('Rajin')
-console.log(result1)
+
 module.exports = countLetters
