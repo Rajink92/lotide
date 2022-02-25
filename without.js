@@ -1,3 +1,4 @@
+const eqArrays = require('./eqArrays')
 const words = ["hello", "world", "lighthouse"];
 
 const without = function (source, itemsToRemove)  {
@@ -19,11 +20,3 @@ const without = function (source, itemsToRemove)  {
 without(words, ["lighthouse"]); 
 console.log(without(words, ["lighthouse"]))
 
-function eqArrays(a, b) {
-  for (let index = 0; index < a.length; index++)  {
-    if (a[index] !== b[index])  {
-      return false
-    }
-  }
-  return true
-}

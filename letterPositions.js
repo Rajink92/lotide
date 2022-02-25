@@ -1,7 +1,7 @@
 
 const letterPositions = function(sentence) {
   const results = {};
-  for (const item of allItems) {
+  for (const item of sentence) {
     console.log(item);
     if (results[item]) {
       results[item] += 1;
@@ -12,20 +12,4 @@ const letterPositions = function(sentence) {
 return results
 }
 
-const sentance = "Lighthouse in the house"
-
-const countLetters = function(text) {
-  let amount = text.length
-  let letters = []
-  for(let i = 0; i < amount; i++)  {
-    if( text.charAt(i) !== " ") {
-    letters.push(text.charAt(i));
-    }
-  }
-let result = countLetters(letters);
-return result;
-};
-console.log(countLetters(sentance));
-
-
-  return results;
+module.exports = letterPositions
