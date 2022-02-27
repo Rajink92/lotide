@@ -1,3 +1,5 @@
+const assertEqual = require('./assertEqual')
+
 const findKey = function (object, callback) {
   for (let key in object) {
     console.log(object[key]);
@@ -15,8 +17,6 @@ const result = findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 2) // => "noma"
-
-const assertEqual = require('./assertEqual')
 
 assertEqual(result, "noma")
 

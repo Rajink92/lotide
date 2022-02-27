@@ -20,3 +20,4 @@ const without = function (source, itemsToRemove)  {
 without(words, ["lighthouse"]); 
 console.log(without(words, ["lighthouse"]))
 
+module.exports = without
