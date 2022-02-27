@@ -12,4 +12,9 @@ describe("#letter Positions", () => {
     const expectedOutput = [2];
     assert(letterPositions(input), expectedOutput);
   });
+  it("returns [2,3] for finding l in hello", () => {
+    const input = "hello";
+    const expectedOutput = [ 2,3 ];
+    assert(letterPositions(input), expectedOutput);
+  });
 });
