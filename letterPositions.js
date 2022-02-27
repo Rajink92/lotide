@@ -6,6 +6,7 @@ const letterPositions = function(sentence) {
     if (letter !== ' ') {
       if (!Array.isArray(results[letter])) {
           results[letter] = [i]
+          
 
 
     //     if (results[item]) {
